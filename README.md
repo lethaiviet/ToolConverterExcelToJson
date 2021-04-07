@@ -53,7 +53,7 @@
 ## About The Project
 
 Input:
-[![File excel][file-excel]]
+[![File excel][file-excel]](https://github.com/lethaiviet/ToolConverterExcelToJson/blob/main/images/image01.PNG)
 
 Output:
 ```json
@@ -159,10 +159,10 @@ NOTE: if you want to create Executable from Python Script
 If you have `ConverterExcelAndJson.exe`, you just need to drag the file (.json or .excel) into `ConverterExcelAndJson.exe` to can get the desired file (.excel or .json).
 
 Or run `ToolConverterExcelToJson\ConverterExcelAndJson.py` directly.
-    ```bat
-      01_active_env.bat
-      python ConverterExcelAndJson.py dataTest\Book1.xlsx
-    ```
+   ```sh
+   01_active_env.bat
+   python ConverterExcelAndJson.py dataTest\Book1.xlsx
+   ```
 <!-- CONTACT -->
 ## Contact
 Project Link: [https://github.com/lethaiviet/ToolConverterExcelToJson](https://github.com/lethaiviet/ToolConverterExcelToJson)
