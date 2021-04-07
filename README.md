@@ -160,8 +160,8 @@ If you have `ConverterExcelAndJson.exe`, you just need to drag the file (.json o
 
 Or run `ToolConverterExcelToJson\ConverterExcelAndJson.py` directly.
    ```sh
-   01_active_env.bat
-   python ConverterExcelAndJson.py dataTest\Book1.xlsx
+    01_active_env.bat
+    python ConverterExcelAndJson.py dataTest\Book1.xlsx
    ```
 <!-- CONTACT -->
 ## Contact
