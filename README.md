@@ -52,19 +52,64 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Input:
+[![File excel][file-excel]]
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
-
+Output:
+```json
+[
+    {
+        "firstName": "firstName_1",
+        "key": "key_1",
+        "lastName": "LastName_1",
+        "members": [
+            "members_1",
+            "members_2"
+        ],
+        "middleName": "middleName_1",
+        "name": "name_1",
+        "password": "password_1",
+        "roles": [
+            "roles_1",
+            "roles_2"
+        ],
+        "userName": "userName_1"
+    },
+    {
+        "firstName": "firstName_2",
+        "key": "key_2",
+        "lastName": "",
+        "members": [
+            ""
+        ],
+        "middleName": "",
+        "name": "name_2",
+        "password": "password_2",
+        "roles": [
+            "roles_1",
+            "roles_2"
+        ],
+        "userName": "userName_2"
+    },
+    {
+        "firstName": "firstName_3",
+        "key": "key_3",
+        "lastName": "",
+        "members": [
+            ""
+        ],
+        "middleName": "",
+        "name": "name_3",
+        "password": "password_3",
+        "roles": [
+            "roles_1",
+            "roles_3"
+        ],
+        "userName": "userName_3"
+    }
+]
+```
+Or vice versa
 ### Built With
 
 * [pandas](https://www.marsja.se/how-to-convert-json-to-excel-python-pandas/) - The lib help to convert JSON data to an Excel file
@@ -104,14 +149,20 @@ To get a local copy up and running follow these simple example steps.
     02_install_libs.bat
    ```
 
+NOTE: if you want to create Executable from Python Script
+   ```sh
+    03_create_app.bat
+   ```
+  After running successfully, the exe output in the path `ToolConverterExcelToJson\dist\ConverterExcelAndJson.exe`
 <!-- USAGE EXAMPLES -->
 ## Usage
+If you have `ConverterExcelAndJson.exe`, you just need to drag the file (.json or .excel) into `ConverterExcelAndJson.exe` to can get the desired file (.excel or .json).
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
+Or run `ToolConverterExcelToJson\ConverterExcelAndJson.py` directly.
+    ```bat
+      01_active_env.bat
+      python ConverterExcelAndJson.py dataTest\Book1.xlsx
+    ```
 <!-- CONTACT -->
 ## Contact
 Project Link: [https://github.com/lethaiviet/ToolConverterExcelToJson](https://github.com/lethaiviet/ToolConverterExcelToJson)
@@ -131,4 +182,4 @@ Project Link: [https://github.com/lethaiviet/ToolConverterExcelToJson](https://g
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]:https://github.com/lethaiviet/ToolConverterExcelToJson/graphs/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[product-screenshot]: images/screenshot.png
+[file-excel]: images/image01.PNG
