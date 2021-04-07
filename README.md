@@ -96,18 +96,18 @@ To get a local copy up and running follow these simple example steps.
    git clone https://github.com/lethaiviet/ToolConverterExcelToJson.git
    ```
 2. Create virtual environment
-  ```sh
+   ```sh
     cd ToolConverterExcelToJson
     00_install_env.bat
-  ```
+   ```
 3. Active virtual environment
-  ```sh
+   ```sh
     01_active_env.bat
-  ```
+   ```
 4. Install dependency libraries on the virtual environment
-  ```sh
+   ```sh
     02_install_libs.bat
-  ```
+   ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
