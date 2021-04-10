@@ -56,8 +56,9 @@ def create_dict_from_keys_n_values(keys, values):
 
 
 def read_json(path_file):
-    with open(path_file) as json_file:
-        data = json.load(json_file)
+    with open(path_file, 'r') as json_file:
+        fixed_json = ''.join(line for line in json_file if not line.lstrip().startswith('//'))
+        data = json.loads(fixed_json)
     return data
 
 
